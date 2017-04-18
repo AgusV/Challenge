@@ -1,56 +1,104 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-	<title>WebSite</title>
-	<link rel="stylesheet"  href="css/normalize.css">
-	<link rel="stylesheet" href="css/styles.css">
-
-</head>
-
-<body>
-<main class="columna-mobile columna-desktop">
-<section class="seccion-tres">
-
-<div class="contenedor-aboutfrelancer">
-
-  <h2 class="about-me">ABOUT</h2>
-  <div class="estrellaBlanca">
-  <img src="estrella.png" alt="" width="300">
-  </div>
-
-<div class="aboutFreelancer">
-<section class="about">
-  <p>Freelancer is a Start Bootstrap Theme. The download includes the complete source filesincluding HTML,CSS and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-
-  <p>Wheter you are a student looking to showcase your work a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!.</p>
-
-</section>
-</div>
-<div class= "download">
-<img src="download.png" alt="" width="300">
-</div>
-<section class="email">
-<div>
-<form id="contact">
-  
-   
-      <h2>CONTACT ME</h2>
-      <div class="estrellaNegra">
-      <img src="estrellaneg.png" alt="" width="300">
+  <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="utf-8">
+  	<title>WebSite</title>
+  	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800" rel="stylesheet">
+  	<link rel="stylesheet" href="css/normalize.css">
+  	<link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <nav class="container navbg">
+      <span class="nombre">NOMBRE APELLIDO</span>
+      <ul class="navlist">
+        <li clas"lifirst"><a href="#">PORTFOLIO</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+    <section class="container seccionuno">
+      <img class="profile" src="img/profile.png">
+      <h1 class="name">NOMBRE APELLIDO</h1>
+      <img class="star" src="img/star.png">
+      <h3>Web Developer - Graphic Artist - User Experience Designer</h3>
+    </section>
+    <section class="container secciondos">
+      <h1 class="portfolio">PORTFOLIO</h1>
+      <img class="star2" src="img/star2.png">
+      <div class="container-img">
+      <ul class="imagenes">
+        <li><img src="img/cabin.png"></li>
+        <li><img src="img/cake.png"></li>
+        <li><img src="img/circus.png"></li>
+        <li><img src="img/game.png"></li>
+        <li><img src="img/safe.png"></li>
+        <li><img src="img/submarine.png"></li>
+      </ul>
       </div>
-  
-    <input type="text" name="name" placeholder="Name" /><br />
-    <input  type="email" name="email" placeholder="Email" /><br />
-    <input  type="phonenumber" name="phonenumber" placeholder="Phone number" /><br />
-    <textarea type="text" name="message" placeholder="Message"></textarea><br />
+    </section>
+    <main class="columna-mobile columna-desktop">
+      <div class="contenedor-aboutfrelancer">
+        <h2 class="about-me">ABOUT</h2>
+        <div class="estrellaBlanca">
+          <img src="estrella.png" alt="" width="300">
+        </div>      
+        <section class="about">
+          <p>Freelancer is a Start Bootstrap Theme. The download includes the complete source filesincluding HTML,CSS and JavaScript as well as optional LESS stylesheets for easy customization.</p>
 
-    <button id="submit" type="submit">
-      Send
-    </button>
-  </div>
-</form>
-</section>
-</main>
-</body>
+          <p>Wheter you are a student looking to showcase your work a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!.</p>
+
+        </section>
+      </div>
+      <div class= "download">
+        <img src="download.png" alt="" width="300">
+      </div>
+      <section class="email">
+        <div>
+          <form id="contact">
+            <h2>CONTACT ME</h2>
+            <div class="estrellaNegra">
+              <img src="estrellaneg.png" alt="" width="300">
+            </div>
+          
+            <input type="text" name="name" placeholder="Name" /><br/>
+            <input  type="email" name="email" placeholder="Email" /><br/>
+            <input  type="phonenumber" name="phonenumber" placeholder="Phone number" /><br/>
+            <textarea type="text" name="message" placeholder="Message"></textarea><br />
+
+            <button id="submit" type="submit">
+              Send
+            </button>          
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="container">
+      <div class="subfooter">
+        <div class="f1">
+            <span class="Ftitulo">LOCATION</span>
+            <p>3481 Melrose Place Beverly Hills, CA 90210</p>
+        </div>
+        <div class="f2">
+          <span  class="Ftitulo">AROUND THE WEB</span>
+          <div class="social">
+            <i class="icon ion-logo-dribbble"></i>
+            <i class="icon ion-logo-dribbble"></i>
+            <i class="icon ion-logo-dribbble"></i>
+            <i class="icon ion-logo-dribbble"></i>
+            <i class="icon ion-logo-dribbble"></i>
+          </div>
+        </div>
+        <div class="f3">
+          <span class="Ftitulo">ABOUT FREELANCER</span>
+          <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a></p>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>Copyright &copy; Your Website 2016</span>
+      </div>
+    </footer>
+  </body>
 </html>
+
